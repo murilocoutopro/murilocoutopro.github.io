@@ -1,0 +1,6 @@
+project_id = "fluxos-de-cura-2026"
+
+[functions.register-lead]
+enabled = true
+verify_jwt = false
+entrypoint = "./functions/register-lead/index.ts"
